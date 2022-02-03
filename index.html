@@ -1,128 +1,213 @@
-<body>
-<code markdown>
-## 在HTML中使用markdown
+﻿<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>简约质感的个人博客html模板 - 我爱模板网 www.5imoban.net</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<script src="js/jquery.min.js"></script>
+		<script src="js/config.js"></script>
+		<script src="js/skel.min.js"></script>
+		<link rel="stylesheet" href="css/skel-noscript.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/style-desktop.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><link rel="stylesheet" href="css/ie8.css" />
+		<![endif]-->
+		<!--[if lte IE 7]><link rel="stylesheet" href="css/ie7.css" /><![endif]-->
+	</head>
+	<body>
+	<!-- Nav -->
+	<nav id="nav">
+		<ul>
+			<li><a href="#top">Top</a></li>
+			<li><a href="#work">Work</a></li>
+			<li><a href="#portfolio">Portfolio</a></li>
+			<li><a href="#contact">Contact</a></li>
+		</ul>
+	</nav>
+	<!-- Home -->
+	<div class="wrapper wrapper-style1 wrapper-first">
+		<article class="container" id="top">
+			<div class="row">
+				<div class="4u">
+					<span class="me image image-full"><img src="images/me.jpg" alt="" /></span>
+				</div>
+				<div class="8u">
+					<header>
+						<h1>Hi. I'm <strong>Jane Doe</strong>.</h1>
+					</header>
+					<p>And this is <strong>Miniport</strong>, a free, fully responsive HTML5 site template designed by AJ for HTML5 UP &amp; released under the CCA license.</p>
+					<a href="#work" class="button button-big">Learn about what I do</a>
+				</div>
+			</div>
+		</article>
+	</div>
 
-# Natural Gradient[^1]
+<!-- Work -->
+	<div class="wrapper wrapper-style2">
+		<article id="work">
+			<header>
+				<h2>I design and build amazing things.</h2>
+				<span>Odio turpis amet sed consequat eget posuere consequat.</span>
+			</header>
+			<div class="container">
+				<div class="row">
+					<div class="4u">
+						<section class="box box-style1">
+							<span class="icon featured-icon icon-comments-alt"></span>
+							<h3>Consequat lorem</h3>
+							<p>Ornare nulla proin odio consequat sapien vestibulum ipsum primis sed amet consequat lorem dolore.</p>
+						</section>
+					</div>
+					<div class="4u">
+						<section class="box box-style1">
+							<span class="icon featured-icon icon-file-alt"></span>
+							<h3>Lorem dolor tempus</h3>
+							<p>Ornare nulla proin odio consequat sapien vestibulum ipsum primis sed amet consequat lorem dolore.</p>
+						</section>
+					</div>
+					<div class="4u">
+						<section class="box box-style1">
+							<span class="icon featured-icon icon-thumbs-up"></span>
+							<h3>Feugiat posuere</h3>
+							<p>Ornare nulla proin odio consequat sapien vestibulum ipsum primis sed amet consequat lorem dolore.</p>
+						</section>
+					</div>
+				</div>
+			</div>
+			<footer>
+				<p>Lorem ipsum dolor sit sapien vestibulum ipsum primis?</p>
+				<a href="#portfolio" class="button button-big">See some of my recent work</a>
+			</footer>
+		</article>
+	</div>
 
-_Zi-Shen Li @ Quantum Algorithm Foundation Group_
+<!-- Portfolio -->
+	<div class="wrapper wrapper-style3">
+		<article id="portfolio">
+			<header>
+				<h2>Awesome work makes happy clients.</h2>
+				<span>Proin odio consequat  sapien vestibulum ipsum primis sed amet consequat lorem dolore feugiat lorem ipsum dolore.</span>
+			</header>
+			<div class="container">
+				<div class="row">
+					<div class="12u">
+					</div>
+				</div>
+				<div class="row">
+					<div class="4u">
+						<article class="box box-style2">
+							<a href="" class="image image-full"><img src="images/portfolio01.jpg" alt="" /></a>
+							<h3><a href="">Magna feugiat</a></h3>
+							<p>Ornare nulla proin odio consequat.</p>
+						</article>
+					</div>
+					<div class="4u">
+						<article class="box box-style2">
+							<a href="" class="image image-full"><img src="images/portfolio02.jpg" alt="" /></a>
+							<h3><a href="">Veroeros primis</a></h3>
+							<p>Ornare nulla proin odio consequat.</p>
+						</article>
+					</div>
+					<div class="4u">
+						<article class="box box-style2">
+							<a href="" class="image image-full"><img src="images/portfolio03.jpg" alt="" /></a>
+							<h3><a href="">Lorem ipsum</a></h3>
+							<p>Ornare nulla proin odio consequat.</p>
+						</article>
+					</div>
+				</div>
+				<div class="row">
+					<div class="4u">
+						<article class="box box-style2">
+							<a href="" class="image image-full"><img src="images/portfolio04.jpg" alt="" /></a>
+							<h3><a href="">Tempus dolore</a></h3>
+							<p>Ornare nulla proin odio consequat.</p>
+						</article>
+					</div>
+					<div class="4u">
+						<article class="box box-style2">
+							<a href="" class="image image-full"><img src="images/portfolio05.jpg" alt="" /></a>
+							<h3><a href="">Feugiat aliquam</a></h3>
+							<p>Ornare nulla proin odio consequat.</p>
+						</article>
+					</div>
+					<div class="4u">
+						<article class="box box-style2">
+							<a href="" class="image image-full"><img src="images/portfolio06.jpg" alt="" /></a>
+							<h3><a href="">Sed amet ornare</a></h3>
+							<p>Ornare nulla proin odio consequat.</p>
+						</article>
+					</div>
+				</div>
+			</div>
+			<footer>
+				<p>Lorem ipsum dolor sit sapien vestibulum ipsum primis?</p>
+				<a href="#contact" class="button button-big">Get in touch with me</a>
+			</footer>
+		</article>
+	</div>
 
-​	For a general ansatz of the parameterized quantum circuit (PQC), the output state could be written as:
-
-$$
-|\psi(\theta)\rangle = \prod_{l=1}{W_lR_l(\theta_l)|0\rangle^{\otimes N}}\tag{1}
-$$
-
-, where $R_l(\theta_l)$ is a parameterized rotation gate applied on the $l$th layer of the PQC and $W_l$ is an entangling gate joining different qubits together. The whole circuit consists of many repeated layers of parameterized rotations $R_l(\theta_l)$ and entangling gate $W_l$.
-
-## Quantum Fisher Information[^2]
-
-​	The QFI is a crucial tool for NISQ research. To calculate the natural gradient, we have to calculate the QFI. The definition of QFI matrix $\mathcal{F}$ is given by:
-
-$$
-\mathcal{F}_{ij}(\theta)=Re(\langle\partial_i\psi|\partial_j\psi\rangle-\langle\partial_i\psi|\psi\rangle\langle\psi|\partial_j\psi\rangle)\tag{2}
-$$
-
-, where $i,j$ is to index different parameters in the PQC so that the dimensions of the matrix $\mathcal{F}$ is equal to the number of parameters.
-
-### Hadamard Test[^3]
-
-​	Hadamard test is a convenient way to calculate QFI. Consider the derivative of a PQC $|\psi(\theta)\rangle$ according to Eqn. (1):
-
-$$
-\begin{eqnarray}
-\partial_l|\psi(\theta)\rangle&=&U_{(l:M]}W_l\partial_lR_l(\theta_l)U_{[1:l)}|0\rangle^{\otimes N} \\
-&=&U_{(l:M]}W_l(-i\frac{\sigma_{n_l}^{\alpha_l}}{2})R_l(\theta_l)U_{[1:l)}|0\rangle^{\otimes N}\tag{3}
-\end{eqnarray}
-$$
-
-The second term in Eqn. (2) could be calculated from the expectation value of the Pauli operator:
-
-$$
-\Rightarrow \langle\psi|\partial_l\psi\rangle=(-i/2)\langle0|^{\otimes N}U_{[1:l)}^\dagger \sigma_{n_l}^{\alpha_l} U_{[1:l)}|0\rangle^{\otimes N}\tag{4}
-$$
-
-The method to obtain the first term of QFI is subtle. For $l\ge k$, the first term is given by:
-
-$$
-Re[\langle\partial_k\psi|\langle\partial_l\psi\rangle]=\frac{1}{4}Re[\langle0|^{\otimes N}U_{[1:k)}^\dagger\sigma_{n_k}^{\alpha_k} U_{[k:l)}^\dagger \sigma_{n_l}^{\alpha_l} U_{[1:l)}|0\rangle^{\otimes N}]\tag{5}
-$$
-
-​	Until now, there is no Hadamard test. Everything is simple linear algebra. But let's focus on Eqn. (5). It is obvious that the RHS is no longer a simple expectation value like Eqn. (4). 
-
-​	Let's start from a simplified example. The initial state is $|+\rangle|\phi\rangle$, which go through a quantum circuit like this:
-
-```
-                           A: |+> ───o───────────────●──
-                                     │               │
-                           B: |φ> ───V1───────U──────V2─
-```
-
-Then the output state is given by:
-
-$$
-\begin{eqnarray}
-\frac{1}{\sqrt{2}}(|0\rangle+|1\rangle)\otimes|\phi\rangle&\rightarrow&\frac{1}{\sqrt{2}}(|0\rangle\otimes UV_1|\phi\rangle+|1\rangle\otimes V_2U|\phi\rangle)\\
-&=&\frac{1}{\sqrt{2}}(|0\rangle|\phi_0\rangle+|1\rangle|\phi_1\rangle)\tag{6}
-\end{eqnarray}
-$$
-
-, where $|\phi_0\rangle=UV_1|\phi\rangle,|\phi_1\rangle=V_2U|\phi\rangle$. Then the subtle thing is that, the expectation of Pauli $X$ in the first register gives the real part of the overlap of $|\phi_0\rangle$ and $|\phi_1\rangle$. Now we try to verify this point by linear algebra. If we want to get the expectation in the first register, the first thing we need to do is to trace out the second register:
-
-$$
-\begin{eqnarray}
-\rho_A&=&Tr_{B}(\rho)=\frac{1}{2}Tr_{B}((|0\rangle|\phi_0\rangle+|1\rangle|\phi_1\rangle)(\langle0|\langle\phi_0|+\langle1|\langle\phi_1|)) \\
-&=&\frac{1}{2}(I+\langle\phi_0|\phi_1\rangle|1\rangle\langle0|+\langle\phi_1|\phi_0\rangle|0\rangle\langle1|)
-\end{eqnarray}
-$$
-
-Then we measure the qubit A to get the expectation value of Pauli $X$ and see what is going to happen:
-$$
-\begin{eqnarray}
-\Rightarrow \langle X\rangle_{A}&=&Tr(X\rho_A)\\
-&=&\frac{1}{2}Tr((X+\langle\phi_0|\phi_1\rangle|0\rangle\langle0|+\langle\phi_1|\phi_0\rangle|1\rangle\langle1|))\\
-&=&Re(\langle\phi_0|\phi_1\rangle)\tag{7}
-\end{eqnarray}
-$$
-
-According to Eqn. (7), we know that the expectation value of Pauli $X$ is nothing but the real part of the overlap of the two state: $\phi_0,\phi_1$.
-
-​	This method to convert the overlap between two states into an expectation value by adding an ancilla qubit (in the above example, it is qubit A) is called Hadamard test. Hadamard test is convenient to calculate the overlap between state. To calculate the first term of QFI, we can substitute the control gates (in the above example) by control Pauli gates because the Pauli gates can be considered as the "eigenvalue" of the partial derivative operator. Meanwhile, we replace $|\phi\rangle$ by $U_{[1:k)}|0\rangle^{\otimes N}$ and the unitary $U$ in the middle should be substituted by $U_{[k:l)}$. The other layers are not necessary to be appended on the Hadamard test circuit because they contribute nothing to the expectation value of the ancilla qubit.
-
-### Quantum State Method[^3]
-
-​	The Hadamard test method is inefficient on classical simulator. But we have an alternative way called quantum state method, which could be mainly used on current classical simulators before strong quantum devices are available. Here is how it works. From Eqn. (3) we know that the derivative of the PQC is by simply adding a Pauli gate applied near the relative rotation gate $R_l$. From the Euler's formula of matrix form,
-
-$$
-e^{iAx}=I\cos{x}+iA\sin{x},\forall{A^2}=I\tag{8}
-$$
-
-, the Pauli gate could be written as:
-
-$$
--i\sigma_X=I\cos{\frac{\pi}{2}}-i\sigma_X\sin{\frac{\pi}{2}}=e^{-i\sigma_X\pi/2}\tag{9}
-$$
-
-By definition, we know that $\exp({-i\sigma_X\pi/2})=R_X(\pi)$, which means the state of object qubit is rotated along $X$ axis by $\pi$ from the perspective of Bloch sphere. Note that we can do the same thing for $Y,Z$. Thus, for any Pauli rotation gate $R(\theta)$, the derivative is given by:
-
-$$
-\partial_\theta R(\theta)=R(\theta)R(\pi)=R(\theta+\pi)\tag{10}
-$$
-
-So, the derivative of Pauli rotation gates could be simply considered as a parameter shift, which is known as _parameter shift rule_. By this approach, we don't need to apply new gates to the circuit but only to chance the respective parameter. By this approach, we can get the needed quantum state in a classical simulator to calculate QFI elements.
-
-[^1]: J. Stokes, J. Izaac2, N. Killoran, and G. Carleo, Quantum Natural Gradient, Quantum 4, 269 (2020). [arXiv:1909.02108v3](https://arxiv.org/abs/1909.02108v3)
-
-[^2]:   J. J. Meyer, Fisher Information in Noisy Intermediate-Scale Quantum Applications, Quantum 5, 539 (2021). [arXiv:1909.02108v3]	(https://arxiv.org/abs/1909.02108v3)
-
-[^3]: T. Haug, K.Bharti, and M.S. Kim, Capacity and Quantum Geometry of Parameterized Quantum Circuits, PRX Quantum 2, 040309 (2021).
-
-
-</code>
-<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-<script>
-var m=document.querySelectorAll('code[markdown]');
-for(var i=0;i<m.length;i++){
-m[i].outerHTML='<div>'+marked(m[i].innerHTML)+'</div>';
-}
-</script>
+<!-- Contact -->
+	<div class="wrapper wrapper-style4">
+		<article id="contact">
+			<header>
+				<h2>Want to hire me? Get in touch!</h2>
+				<span>Ornare nulla proin odio consequat  sapien vestibulum ipsum sed lorem.</span>
+			</header>
+			<div>
+				<div class="row">
+					<div class="12u">
+						<form method="post" action="#">
+							<div>
+								<div class="row half">
+									<div class="6u">
+										<input type="text" name="name" id="name" placeholder="Name" />
+									</div>
+									<div class="6u">
+										<input type="text" name="email" id="email" placeholder="Email" />
+									</div>
+								</div>
+								<div class="row half">
+									<div class="12u">
+										<input type="text" name="subject" id="subject" placeholder="Subject" />
+									</div>
+								</div>
+								<div class="row half">
+									<div class="12u">
+										<textarea name="message" id="message" placeholder="Message"></textarea>
+									</div>
+								</div>
+								<div class="row">
+									<div class="12u">
+										<a href="#" class="button form-button-submit">Send Message</a>
+										<a href="#" class="button button-alt form-button-reset">Clear Form</a>
+									</div>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+				<div class="row row-special">
+					<div class="12u">
+						<h3>Find me on ...</h3>
+						<ul class="social">
+							<li class="twitter"><a href="" class="icon icon-twitter"><span>Twitter</span></a></li>
+							<li class="facebook"><a href="#" class="icon icon-facebook"><span>Facebook</span></a></li>
+							<li class="dribbble"><a href="" class="icon icon-dribbble"><span>Dribbble</span></a></li>
+							<li class="linkedin"><a href="#" class="icon icon-linkedin"><span>LinkedIn</span></a></li>
+							<li class="tumblr"><a href="#" class="icon icon-tumblr"><span>Tumblr</span></a></li>
+							<li class="googleplus"><a href="#" class="icon icon-google-plus"><span>Google+</span></a></li>
+							<li class="github"><a href="" class="icon icon-github"><span>Github</span></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<footer>
+				<p id="copyright">
+					&copy; Copyright &copy; 2013.Company name All rights reserved.<a target="_blank" href="http://www.5imoban.net">我爱模板网</a>
+				</p>
+			</footer>
+		</article>
+	</div>
 </body>
+</html>
